@@ -122,6 +122,10 @@
     justify-content: center;
     gap: 15px;
 }
+.about-container .box .p .link
+{
+    text-decoration: none;
+}
 .about-container .box .p p
 {
     color: #fff8;
@@ -139,4 +143,13 @@
 {
     color: #fff;
     cursor: pointer;
+}
+.about-container .box .glass .fa-backward
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
 }
