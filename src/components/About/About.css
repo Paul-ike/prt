@@ -17,7 +17,7 @@
 }
 .about-body:has(.box[data-color="clr1"]:hover)
 {
-    background: #791941;
+    background: #964B00;
 }
 .about-container
 {

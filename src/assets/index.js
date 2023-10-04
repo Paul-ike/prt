@@ -7,6 +7,7 @@ import frienic from './frienic.webp'
 import grounic from './grounic.jpg'
 import coupnic from './coupnic.png'
 import bashnic from './bashnic.webp'
+import baker from './baker.jpg'
 
 export {
     about,
@@ -18,4 +19,5 @@ export {
     grounic,
     coupnic,
     bashnic,
+    baker,
 }

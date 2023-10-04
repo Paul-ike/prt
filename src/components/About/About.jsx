@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import { Link } from 'react-router-dom'
-import { about } from '../../assets'
+import { baker } from '../../assets'
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
     <div className='about-container'>
         <div className='box' data-color='clr1'>
             <div className='imgBx'>
-                <img src={ about } alt='pic' />
+                <img src={ baker } alt='pic' />
             </div>
             <div className='glass'>
                 <h3>My name is Tasha.<br/><span>The Baker.</span></h3>

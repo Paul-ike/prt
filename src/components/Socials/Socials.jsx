@@ -8,36 +8,31 @@ const Socials = () => {
       <div className='socials-body'>
         <ul>
           <li style={{ '--i': -3, '--clr': '#1877f2' }} data-text="Facebook">
-            <Link to={'/'}>
+            <Link target='blank' to={'https://www.facebook.com/107367741000662/'}>
             <span><i class="fa-brands fa-facebook-f"></i></span>Facebook
             </Link>
           </li>
           <li style={{ '--i': -2, '--clr': '#25d366' }} data-text="Whatsapp">
-            <Link to={'/'}>
+            <Link target='blank' to={'https://wa.me/254705673353'}>
             <span><i class="fa-brands fa-whatsapp"></i></span>Whatsapp
             </Link>
           </li>
           <li style={{ '--i': -1, '--clr': '#1da1f2' }} data-text="Twitter">
-            <Link to={'/'}>
-            <span><i class="fa-brands fa-twitter"></i></span>Twitter
+            <Link target='blank' to={'https://twitter.com/tabbzthebaker'}>
+            <span><i class="fa-brands fa-x-twitter"></i></span>Twitter
             </Link>
           </li>
           <li style={{ '--i': 0, '--clr': '#c32aa3' }} data-text="Instagram">
-            <Link to={'/'}>
+            <Link target='blank' to={'https://instagram.com/tabbz_the_baker'}>
             <span><i class="fa-brands fa-instagram"></i></span>Instagram
             </Link>
           </li>
-          <li style={{ '--i': 1, '--clr': '#ff0000' }} data-text="YouTube">
-            <Link to={'/'}>
-            <span><i class="fa-brands fa-youtube"></i></span>YouTube
+          <li style={{ '--i': 1, '--clr': '#0a66c2' }} data-text="Call">
+            <Link target='blank' to={'tel:+254705673353'}>
+            <span><i class="fa-solid fa-phone"></i></span>Call
             </Link>
           </li>
-          <li style={{ '--i': 2, '--clr': '#0a66c2' }} data-text="LinkedIn">
-            <Link to={'/'}>
-            <span><i class="fa-brands fa-linkedin-in"></i></span>LinkedIn
-            </Link>
-          </li>
-          <li style={{ '--i': 3, '--clr': '#005766' }} data-text="Back">
+          <li style={{ '--i': 2, '--clr': '#005766' }} data-text="Back">
             <Link to={'/'}>
             <span><i class="fa-solid fa-backward"></i></span>Back
             </Link>
